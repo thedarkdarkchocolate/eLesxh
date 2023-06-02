@@ -5,5 +5,15 @@
         "lib/**/*.jar",
         "src/sqlite_driver.jar"
     ],
-    "java.dependency.packagePresentation": "hierarchical"
+    "java.dependency.packagePresentation": "hierarchical",
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [],
+    
+    "java.completion.filteredTypes": [
+        "com.sun.*",
+        "sun.*",
+        "jdk.*",
+        "org.graalvm.*",
+        "io.micrometer.shaded.*"
+    ]
 }
